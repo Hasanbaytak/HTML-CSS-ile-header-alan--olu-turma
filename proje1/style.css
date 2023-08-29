@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(imagesss/bg.png);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 21px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+   padding: 12px 28px;
+   font-size: 12px;
+   font-weight: 700;
+   margin-top: 30px;
+   cursor: pointer;
+   color: #000;
+   background-color: #fff;
+   border-radius: 20px;
+   border: 1px solid;
+   text-decoration: none;
+   transition: 0.4s; 
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px; /*rezalet iyi li nin içine girmeden birbirinden ayırabildik. */ 
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none; 
+     transition: ease .5s;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.desc{
+    font-size: 16px;
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    background-image: url(imagesss/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: 1px solid;
+    position: relative;
+    margin: 10px 15px;
+}    
+
+.card .card-head{
+    background-color: rgba(0,0 ,0 ,0.7);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card .card-bottom{
+    position: absolute;
+    bottom: 26px;
+}
